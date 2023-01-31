@@ -1,0 +1,25 @@
+:root{
+    --fuente1: "fontawesome-webfont2";
+    --fuente2: "fontawesome-webfont";
+    --fuente3: "opensans-regular-webfont";
+    --fuente4: "opensans-regular-webfont2";
+}
+
+@font-face {
+    font-family:var(--fuente1);
+    src: url(font/fontawesome-webfont.woff2);
+    font-family: var(--fuente2);
+    src: url(font/fontawesome-webfont.woff);
+    font-family:var(--fuente3);
+    src: url(font/opensans-regular-webfont.woff);
+    font-family: var(--fuente4);
+    src: url(font/opensans-regular-webfont.woff2);
+}
+
+
+#paginainicio {
+    font-family: var(--fuente1);
+    background-image: url(img/fondo-bienvenido-grande.jpg);
+    display: flex;
+    justify-content: center;
+}
