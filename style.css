@@ -1,25 +1,38 @@
-:root{
-    --fuente1: "fontawesome-webfont2";
-    --fuente2: "fontawesome-webfont";
-    --fuente3: "opensans-regular-webfont";
-    --fuente4: "opensans-regular-webfont2";
-}
 
 @font-face {
-    font-family:var(--fuente1);
+    font-family:"fontawesome-webfont2";
     src: url(font/fontawesome-webfont.woff2);
-    font-family: var(--fuente2);
+    font-family: "fontawesome-webfont";
     src: url(font/fontawesome-webfont.woff);
-    font-family:var(--fuente3);
+    font-family:"opensans-regular-webfont";
     src: url(font/opensans-regular-webfont.woff);
-    font-family: var(--fuente4);
+    font-family: "opensans-regular-webfont2";
     src: url(font/opensans-regular-webfont.woff2);
 }
 
 
-#paginainicio {
-    font-family: var(--fuente1);
+.pagincio {
     background-image: url(img/fondo-bienvenido-grande.jpg);
+    background-size: contain;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    font-family: "fontawesome-webfont";
+    width: 1300px;
+    height: 669px;
+
+}
+
+.lead1 {
+    font-size: 15;
+    color: white;
+
+}
+.display-3 {
+    font-family: "opensans-regular-webfont2";
+    font-size: 50px;
+    color: white;
+    margin-bottom: 0px;
+
 }
