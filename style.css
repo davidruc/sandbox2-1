@@ -16,7 +16,7 @@
     display: flex;
     flex-direction: row;
     align-content: flex-start;
-    height: 75px;
+    height: 85px;
     align-items: center;
     justify-content: space-between;
 }
@@ -39,24 +39,28 @@
 
  
 .btn-group {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 15px;
     background-color: rgba(0, 0, 0, 0);
     color: white;
     border-color: transparent;
-    
+    padding: 12px;
 
+}
+
+.btn-group:hover{
+    background-color: #f05f40;
 }
 
 
 .pagincio {
 
     background-image: url(img/fondo-bienvenido-grande.jpg);
-    background-size: contain;
+ 
     display: flex;
     flex-direction: column;
     height: 1000px;
     width: 100%;
+    background-size: contain;
     background-repeat: no-repeat;
     
 }
@@ -64,20 +68,21 @@
 .dentroimg {
     display: flex;
     flex-direction: column;
-    margin-top: 17%;
+    margin-top: 14%;
     align-items: center;
 }
+
 .lead1 {
     display: flex;
     padding: -1;
     margin-bottom: 0;
-    font-size: 15;
+    font-size: 25px;
     color: white;
 
 }
 .display-3 {
     font-family: "opensans-regular-webfont2";
-    font-size: 50px;
+    font-size: 70px;
     color: white;
     margin-bottom: 0px;
     padding: 20px;
@@ -87,8 +92,150 @@
 .botonpontecontacto{
     color:white;
     border-radius: 0px;
-    background-color: coral;
+    background-color: #f05f40;
     border-color:transparent;
     padding: 10px 20px 10px 20px ;
     font-size:15px;
+}
+
+.txt2{
+    display: flex;
+    flex-direction: column;
+    background-color: #f05f40;
+    margin-top: -100px;
+    height: 550px;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+
+.imgnosotros {
+
+    
+    margin:-50px 30px 30px 30px;
+    width: 200px;
+    height: 200px;
+}
+
+.qsoy{
+    color:white;
+
+}
+
+.textoqsomos{
+    display: flex;
+    color:white;
+    font-size: 15px;
+    margin: 15px 590px 0px 600px;
+}
+
+.botonmasinfo{
+    display: flex;
+    margin-top: 25px;
+    color:black;
+    border-radius: 0px;
+    background-color: white;
+    border-color:transparent;
+    padding: 10px 20px 10px 20px ;
+    font-size:15px;
+}
+
+.nuestrosservicios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 450px; 
+}
+.abarca{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 310px 0px 330px;
+    
+}
+
+.textos{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin:90px; 
+    justify-content: center;
+}
+.textos svg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.titleservice{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+svg{
+    margin-bottom: 20px;
+    width: 80px;
+    fill: #f05f40;
+    height: 80px;
+}
+
+.textservice{
+    display: flex;
+    justify-content: center;    
+}
+
+.ultimosproyectos{
+    display: flex;
+    flex-direction: column;
+
+    background-color: #424141;
+    height: 800px;
+    align-items: center;
+}
+
+.imgglobal{
+    width:400px;
+    height: 400px;
+    
+}
+
+.imgf1{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    
+
+    
+    
+}
+
+.imgf2{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+#titlelastproyect{
+    display: flex;
+    align-content: flex-start;
+    margin: 40px;
+    color: white;
+
+}
+
+footer{
+    display: flex;
+    
+    background-color: #222222;
+    color: white;
+    justify-content: center;
+    padding-top: 25px;
+    align-content: center;
+    font-size: 15px;
+    height: 70px;
+
 }
