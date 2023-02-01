@@ -11,20 +11,66 @@
 }
 
 
+#barrasuperior {
+    background-color: rgba(0, 0, 0, 0.486);
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    height: 75px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.namepage{
+    font-size: 25px;
+    padding-left: 300px;
+    margin-top: 20px;
+    color: white;
+
+
+}
+
+.barrarigth {
+    display: flex;
+    margin-right: 150px;
+    flex-direction: row;
+
+}
+
+ 
+.btn-group {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border-color: transparent;
+    
+
+}
+
+
 .pagincio {
+
     background-image: url(img/fondo-bienvenido-grande.jpg);
     background-size: contain;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: "fontawesome-webfont";
-    width: 1300px;
-    height: 669px;
-
+    height: 1000px;
+    width: 100%;
+    background-repeat: no-repeat;
+    
 }
 
+.dentroimg {
+    display: flex;
+    flex-direction: column;
+    margin-top: 17%;
+    align-items: center;
+}
 .lead1 {
+    display: flex;
+    padding: -1;
+    margin-bottom: 0;
     font-size: 15;
     color: white;
 
@@ -34,5 +80,15 @@
     font-size: 50px;
     color: white;
     margin-bottom: 0px;
+    padding: 20px;
 
+}
+
+.botonpontecontacto{
+    color:white;
+    border-radius: 0px;
+    background-color: coral;
+    border-color:transparent;
+    padding: 10px 20px 10px 20px ;
+    font-size:15px;
 }
