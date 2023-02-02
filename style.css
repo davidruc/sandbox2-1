@@ -37,32 +37,41 @@
 
 }
 
- 
-.btn-group {
+
+#btn-group1 {
+    font-family: "opensans-regular-webfont2";
     margin: 15px;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 255, 0);
     color: white;
-    border-color: transparent;
+    border: none;
     padding: 12px;
-
+    text-transform: uppercase;
+    transition: 0.3s ease all;
+    position:relative;
+    /* overflow: hidden;   */
+    cursor: pointer;
 }
 
-.btn-group:hover{
-    background-color: #f05f40;
+#btn-group1 span{
+    position: relative;
+    z-index: 2;
+    transition: 0.3s ease all;
 }
+
+
 
 
 .pagincio {
 
     background-image: url(img/fondo-bienvenido-grande.jpg);
- 
+
     display: flex;
     flex-direction: column;
-    height: 1000px;
+    height: 986px;
     width: 100%;
     background-size: contain;
     background-repeat: no-repeat;
-    
+
 }
 
 .dentroimg {
@@ -102,18 +111,18 @@
     display: flex;
     flex-direction: column;
     background-color: #f05f40;
-    margin-top: -100px;
+
     height: 550px;
     align-items: center;
     justify-content: center;
-   
+
 
 }
 
 .imgnosotros {
 
-    
-    margin:-50px 30px 30px 30px;
+
+    margin:20px 30px 30px 30px;
     width: 200px;
     height: 200px;
 }
@@ -142,24 +151,28 @@
 }
 
 .nuestrosservicios{
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 450px; 
+    height: 450px;
 }
 .abarca{
     display: flex;
     flex-direction: row;
     margin: 0px 310px 0px 330px;
-    
 }
+
+
+
+
 
 .textos{
     display: flex;
     flex-direction: column;
     align-content: center;
-    margin:90px; 
+    margin:90px;
     justify-content: center;
 }
 .textos svg{
@@ -184,7 +197,7 @@ svg{
 
 .textservice{
     display: flex;
-    justify-content: center;    
+    justify-content: center;
 }
 
 .ultimosproyectos{
@@ -197,19 +210,19 @@ svg{
 }
 
 .imgglobal{
-    width:400px;
+    width: 400px;
     height: 400px;
-    
+
 }
 
 .imgf1{
     display: flex;
     justify-content: center;
     gap:30px;
-    
 
-    
-    
+
+
+
 }
 
 .imgf2{
@@ -229,7 +242,7 @@ svg{
 
 footer{
     display: flex;
-    
+
     background-color: #222222;
     color: white;
     justify-content: center;
@@ -239,3 +252,7 @@ footer{
     height: 70px;
 
 }
+
+
+
+

@@ -14,6 +14,7 @@
     <script src="js/bootstrap.js"></script>
     <script src="js/jquery.min.js"></script>
     <link rel = "stylesheet" href = "style.css">
+    <link rel = "stylesheet" href = "efects.css">
     <script src="https://kit.fontawesome.com/c3cd11032a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://kit.fontawesome.com/c3cd11032a.css" crossorigin="anonymous">
 </head>
@@ -25,12 +26,13 @@
             <div id="barrasuperior">
                 <P class="namepage"> AULAIDEAL.COM </P>
                 <div class="barrarigth">
-                  <div>
-                      <button class="btn-group" onmouseover = "">NOSOTROS</button>
-                      <button class="btn-group">SERVICIOS</button>
-                      <button class="btn-group">PORTAFOLIO</button>
-                      <button class="btn-group">CONTACTO</button>
-                  </div>
+                  
+                  <!-- el comando span pone por encima al texto del botón sin importar que estilos tenga-->
+                  <button id="btn-group1"><span>nosotros</span></button>
+                  <button id="btn-group2"><span>SERVICIOS</span></button>
+                  <button id="btn-group3"><span>PORTAFOLIO</span></button>
+                  <button id="btn-group4"><span>CONTACTO</span></button>
+                
                 </div>  
             </div>
             <div class="dentroimg">
@@ -62,12 +64,15 @@
         </div>
     </section>
 
-    <section id="nuestrosservicios">
+    <section>
         <div class="nuestrosservicios">
           <h1 id="servicios">NUESTROS SERVICIOS</h1>
           <div class="abarca">
-            <div class="textos">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M184 48H328c4.4 0 8 3.6 8 8V96H176V56c0-4.4 3.6-8 8-8zm-56 8V96H64C28.7 96 0 124.7 0 160v96H192 320 512V160c0-35.3-28.7-64-64-64H384V56c0-30.9-25.1-56-56-56H184c-30.9 0-56 25.1-56 56zM512 288H320v32c0 17.7-14.3 32-32 32H224c-17.7 0-32-14.3-32-32V288H0V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V288z"/></svg>
+            <div class=" s">
+              <div class="boton1">
+                <a class="boton11">rdgdrgd</a>
+              </div>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M184 48H328c4.4 0 8 3.6 8 8V96H176V56c0-4.4 3.6-8 8-8zm-56 8V96H64C28.7 96 0 124.7 0 160v96H192 320 512V160c0-35.3-28.7-64-64-64H384V56c0-30.9-25.1-56-56-56H184c-30.9 0-56 25.1-56 56zM512 288H320v32c0 17.7-14.3 32-32 32H224c-17.7 0-32-14.3-32-32V288H0V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V288z"/></svg> 
               <h2 class="titleservice">Aplicaciones para la nube</h2>
               <p class="textservice">Para empresa que requiera am-
                 pliar sus plataformas de gestión.</p>
@@ -96,14 +101,14 @@
         <h1 id="titlelastproyect">ÚLTIMOS PROYECTOS</h1>
         <div class="imgglobal">
           <div class="imgf1">
-            <img src="/img/proyecto1.svg">
-            <img src="/img/proyecto2.svg">
-            <img src="/img/proyecto3.svg">   
+            <img src="./img/proyecto1.svg">
+            <img src="./img/proyecto2.svg">
+            <img src="./img/proyecto3.svg">   
           </div>
           <div class="imgf2">
-            <img src="/img/proyecto4.svg">       
-            <img src="/img/proyecto5.svg">        
-            <img src="/img/proyecto6.svg">
+            <img src="./img/proyecto4.svg">       
+            <img src="./img/proyecto5.svg">        
+            <img src="./img/proyecto6.svg">
           
           </div>
         </div>  
