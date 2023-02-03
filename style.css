@@ -19,6 +19,8 @@
     height: 85px;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    width: 100%;
 }
 
 .namepage{
@@ -64,7 +66,7 @@
 .pagincio {
 
     background-image: url(img/fondo-bienvenido-grande.jpg);
-
+   
     display: flex;
     flex-direction: column;
     height: 986px;
@@ -75,9 +77,10 @@
 }
 
 .dentroimg {
+    position: relative;
     display: flex;
     flex-direction: column;
-    margin-top: 14%;
+    padding-top: 18%;
     align-items: center;
 }
 
@@ -164,8 +167,10 @@
     display: flex;
     flex-direction: column;
     align-content: center;
-    padding: 75px ;
-    justify-content: center;
+    padding: 90px ;
+    justify-content: space-between;
+
+   
 }
 .textos svg{
     width: 100%;
@@ -173,6 +178,7 @@
     justify-content: center;
     align-content: center;
     position: flex;
+    
 
 }
 .titleservice{
@@ -180,6 +186,9 @@
     justify-content: center;
     font-size: 20px;
     font-weight: bold;
+    align-items: center;
+    
+ 
 
 }
 
@@ -192,9 +201,18 @@
     height: 80px;
 }
 
-.textservice{
-    display: flex;
-    justify-content: center;
+.textservice2{
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+}
+
+.textservice1{
+    text-align: left;
+}
+
+.textservice3{
+    text-align: right;
 }
 
 .ultimosproyectos{
@@ -239,7 +257,6 @@
 
 footer{
     display: flex;
-
     background-color: #222222;
     color: white;
     justify-content: center;
