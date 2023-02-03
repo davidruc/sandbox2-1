@@ -34,7 +34,7 @@
 
 .barrarigth {
     display: flex;
-    margin-right: 150px;
+    margin-right: 250px;
     flex-direction: row;
 
 }
@@ -77,7 +77,7 @@
 }
 
 .dentroimg {
-    position: relative;
+    
     display: flex;
     flex-direction: column;
     padding-top: 18%;
@@ -88,7 +88,7 @@
     display: flex;
     padding: -1;
     margin-bottom: 0;
-    font-size: 25px;
+    font-size: 22.5px;
     color: white;
 
 }
