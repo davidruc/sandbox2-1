@@ -38,7 +38,7 @@
 }
 
 
-#btn-group1 {
+#btn-group {
     font-family: "opensans-regular-webfont2";
     margin: 15px;
     background-color: rgba(0, 0, 255, 0);
@@ -48,11 +48,11 @@
     text-transform: uppercase;
     transition: 0.3s ease all;
     position:relative;
-    /* overflow: hidden;   */
+    overflow: hidden;  
     cursor: pointer;
 }
 
-#btn-group1 span{
+#btn-group span{
     position: relative;
     z-index: 2;
     transition: 0.3s ease all;
@@ -98,20 +98,12 @@
 
 }
 
-.botonpontecontacto{
-    color:white;
-    border-radius: 0px;
-    background-color: #f05f40;
-    border-color:transparent;
-    padding: 10px 20px 10px 20px ;
-    font-size:15px;
-}
 
 .txt2{
     display: flex;
     flex-direction: column;
     background-color: #f05f40;
-
+    margin-top: -50px;
     height: 550px;
     align-items: center;
     justify-content: center;
@@ -172,13 +164,16 @@
     display: flex;
     flex-direction: column;
     align-content: center;
-    margin:90px;
+    padding: 75px ;
     justify-content: center;
 }
 .textos svg{
     width: 100%;
     display: flex;
     justify-content: center;
+    align-content: center;
+    position: flex;
+
 }
 .titleservice{
     display: flex;
@@ -188,7 +183,9 @@
 
 }
 
-svg{
+.iconosgrandes{
+    display: flex;
+    justify-content: center;
     margin-bottom: 20px;
     width: 80px;
     fill: #f05f40;
