@@ -16,7 +16,7 @@
     display: flex;
     flex-direction: row;
     align-content: flex-start;
-    height: 85px;
+    height: 14%;
     align-items: center;
     justify-content: space-between;
     position: fixed;
@@ -24,9 +24,9 @@
 }
 
 .namepage{
-    font-size: 25px;
-    padding-left: 300px;
-    margin-top: 20px;
+    font-size: 190%;
+    padding-left: 20%;
+    margin-top: 1%;
     color: white;
     text-transform: lowercase;
 
@@ -35,19 +35,18 @@
 
 .barrarigth {
     display: flex;
-    margin-right: 250px;
+    margin-right: 10%;
     flex-direction: row;
-
 }
 
 
 #btn-group {
     font-family: "opensans-regular-webfont2";
-    margin: 15px;
+    margin: .4%;
     background-color: rgba(0, 0, 255, 0);
     color: white;
     border: none;
-    padding: 12px;
+    padding: 13px;
     text-transform: uppercase;
     transition: 0.3s ease all;
     position:relative;
@@ -60,28 +59,22 @@
     z-index: 2;
     transition: 0.3s ease all;
 }
-
-
-
-
-.pagincio {
-
-    background-image: url(img/fondo-bienvenido-grande.jpg);
-   
+.pagincio {  
+    position: relative; 
     display: flex;
     flex-direction: column;
-    height: 986px;
+    height: 100%;
     width: 100%;
-    background-size: contain;
-    background-repeat: no-repeat;
-
 }
-
-.dentroimg {
-    
+.pagincio .img{
+    display: block;
+    z-index: -10;
+}
+.dentroimg{
+    position: absolute;
     display: flex;
     flex-direction: column;
-    padding-top: 18%;
+    padding: 18% 23% 0% 23%;
     align-items: center;
 }
 
@@ -102,13 +95,10 @@
 
 }
 
-
 .txt2{
     display: flex;
     flex-direction: column;
     background-color: #f05f40;
-    margin-top: -50px;
-    height: 550px;
     align-items: center;
     justify-content: center;
 
@@ -116,23 +106,20 @@
 }
 
 .imgnosotros {
-
-
-    margin:20px 30px 30px 30px;
-    width: 200px;
-    height: 200px;
+    margin: 2%;
+    width: 15%;
+    
 }
 
 .qsoy{
     color:white;
-
 }
 
 .textoqsomos{
     display: flex;
     color:white;
     font-size: 15px;
-    margin: 15px 590px 0px 600px;
+    margin: 1% 32%;
 }
 
 .botonmasinfo{

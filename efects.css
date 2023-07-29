@@ -20,13 +20,13 @@
 .botonpontecontacto{
     display: flex;
     color:white;
+    position: relative;
     align-items: center;
     justify-content: center;
-    border-radius: 0px;
     background-color: #f06040;
     border-color:transparent;
-    padding: 25px 140px 25px 140px ;
-    font-size:15px;
+    padding: 3% 16%;
+    font-size: 2vh;
     transition: 0.4s ease all;
     cursor: pointer;
     top: 0px;
@@ -35,49 +35,29 @@
 }
 
 .botonpontecontacto:hover .iconobarra {
-    left: 56%;
-    transition: 0.4s ease-in-out all;
-    
-    
+    left: 80%;
+    transition: 0.6s ease-in-out all;
+    overflow: visible;
 }
 
 .botonpontecontacto .iconobarra{
-    display: flex;
-    align-items: center;
     position: absolute;
-    z-index: 2;
     left: 2000px;
-    transition: 0.4s ease-in-out all;
+    transition: 0.6s ease-in-out all;
     overflow: hidden;
-     
-    
-    
-   
-    
 }
 .botonpontecontacto svg {
     fill: white;
     width: 15px;
     height: 15px;
-    
-
-
 }
-
 .botonpontecontacto span{
-
     transition: 0.9s ease all;
     position: absolute;
-    
-
-
 }
 
 .botonpontecontacto:hover span{
-    left: 43%;
-    
-    
-    
+    left: 6%;
 }
 
 svg:hover {
@@ -86,7 +66,7 @@ svg:hover {
 }
 
 
-img:hover {
+.imgEspecials:hover {
     transform: scale(1.1);
     filter: opacity(.5);
     cursor: pointer;
